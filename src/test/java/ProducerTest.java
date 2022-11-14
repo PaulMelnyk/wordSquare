@@ -50,10 +50,10 @@ class ProducerTest {
     }
 
     private char[][] getExpectedResult(int count, String value) {
-        char[][] test = new char[count][count];
+        char[][] expectedResults = new char[count][count];
         ArrayList<String> expectedValues = expectedWordList.getWordArrayList(value);
 
-        return setExpectedArray(count, test, expectedValues);
+        return setExpectedArray(count, expectedResults, expectedValues);
     }
 
     private char[][] setExpectedArray(int count, char[][] values, ArrayList value) {
