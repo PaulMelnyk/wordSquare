@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProducerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-11-14T20:31:39" hostname="Pauls-MacBook-Air.local" time="17.972">
+  <properties/>
+  <testcase name="1 =&gt; wordCount= , value={1}" classname="ProducerTest" time="0.1"/>
+  <testcase name="2 =&gt; wordCount=aaaaa, value={1}" classname="ProducerTest" time="8.67"/>
+  <testcase name="3 =&gt; wordCount=null, value={1}" classname="ProducerTest" time="0.002"/>
+  <testcase name="4 =&gt; wordCount=, value={1}" classname="ProducerTest" time="0.003"/>
+  <testcase name="1 =&gt; wordCount=4, value=eeeeddoonnnsssrv" classname="ProducerTest" time="4.07"/>
+  <testcase name="2 =&gt; wordCount=4, value=aaccdeeeemmnnnoo" classname="ProducerTest" time="1.844"/>
+  <testcase name="3 =&gt; wordCount=5, value=aabbeeeeeeeehmosrrrruttvv" classname="ProducerTest" time="1.725"/>
+  <testcase name="4 =&gt; wordCount=7, value=aaaaaaaaabbeeeeeeedddddggmmlloooonnssssrrrruvvyyy" classname="ProducerTest" time="1.51"/>
+  <system-out><![CDATA[----------------
+Cannot attempt to create word square with given string
+----------------
+No valid word square could be made.
+----------------
+Cannot attempt to create word square with given string
+----------------
+Cannot attempt to create word square with given string
+----------------
+rose
+oven
+send
+ends
+----------------
+moan
+once
+acme
+need
+----------------
+heart
+ember
+above
+revue
+trees
+----------------
+bravado
+renamed
+analogy
+valuers
+amoebas
+degrade
+odyssey
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
